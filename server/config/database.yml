@@ -1,0 +1,18 @@
+common: &common
+  adapter: mysql2
+  encoding: utf8
+  username: root
+  password: root
+  host: localhost
+
+development:
+  <<: *common
+  database: cloud_dev
+
+test:
+  <<: *common
+  database: cloud_test
+
+production:
+  <<: *common
+  database: cloud_product

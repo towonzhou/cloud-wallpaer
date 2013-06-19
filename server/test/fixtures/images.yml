@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  classification: MyString
+  location: MyString
+  link: 1
+  unlink: 1
+
+two:
+  name: MyString
+  classification: MyString
+  location: MyString
+  link: 1
+  unlink: 1

@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>evaluation:</b>
+  <%= @like %>
+</p>
+
+<p>
+  <b>Name:</b>
+  <%= @image.name %>
+</p>
+
+<p>
+  <b>Classification:</b>
+  <%= @image.classification %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <img src="<%= @image.location %>"/>
+</p>
+
+<p>
+  <b>Like:</b>
+  <%= @image.like %>
+</p>
+
+<p>
+  <b>Unlike:</b>
+  <%= @image.unlike %>
+</p>
+
+
+<%= link_to 'Edit', edit_image_path(@image) %> |
+<%= link_to 'Back', images_path %>
